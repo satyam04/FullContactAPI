@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A7F87A2F77EF385348E972 /* Pods_FullContactAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34713B8918293CC620E441CB /* Pods_FullContactAPITests.framework */; };
+		635CFD561F84176500C39524 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CFD551F84176500C39524 /* ResultViewController.swift */; };
+		639B236B1F8402CC00A6328A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B236A1F8402CC00A6328A /* AppDelegate.swift */; };
+		639B236D1F8402CC00A6328A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B236C1F8402CC00A6328A /* ViewController.swift */; };
+		639B23701F8402CD00A6328A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639B236E1F8402CD00A6328A /* Main.storyboard */; };
+		639B23721F8402CD00A6328A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639B23711F8402CD00A6328A /* Assets.xcassets */; };
+		639B23751F8402CD00A6328A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639B23731F8402CD00A6328A /* LaunchScreen.storyboard */; };
+		639B23801F8402CD00A6328A /* FullContactAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B237F1F8402CD00A6328A /* FullContactAPITests.swift */; };
+		639B238B1F8402CD00A6328A /* FullContactAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639B238A1F8402CD00A6328A /* FullContactAPIUITests.swift */; };
+		65CAAE0F34DB83EAE8C6A2FF /* Pods_FullContactAPIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA3FD13ECC218CB956B5BF4 /* Pods_FullContactAPIUITests.framework */; };
+		7940D05DCB72BDBA06061A92 /* Pods_FullContactAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EA11E2E65E223F92F84B45 /* Pods_FullContactAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		639B237C1F8402CD00A6328A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639B235F1F8402CC00A6328A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639B23661F8402CC00A6328A;
+			remoteInfo = FullContactAPI;
+		};
+		639B23871F8402CD00A6328A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 639B235F1F8402CC00A6328A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 639B23661F8402CC00A6328A;
+			remoteInfo = FullContactAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04362F1DE060945ABC4D63A6 /* Pods-FullContactAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullContactAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullContactAPI/Pods-FullContactAPI.release.xcconfig"; sourceTree = "<group>"; };
+		07EA11E2E65E223F92F84B45 /* Pods_FullContactAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullContactAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1199763EBFB2876932493B71 /* Pods-FullContactAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullContactAPITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullContactAPITests/Pods-FullContactAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		1268DCF681B1E0246C90D385 /* Pods-FullContactAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullContactAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullContactAPI/Pods-FullContactAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		34713B8918293CC620E441CB /* Pods_FullContactAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullContactAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA3FD13ECC218CB956B5BF4 /* Pods_FullContactAPIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullContactAPIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F0C422BDB0EF13AAF59BC1 /* Pods-FullContactAPIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullContactAPIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullContactAPIUITests/Pods-FullContactAPIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		635CFD551F84176500C39524 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		639B23671F8402CC00A6328A /* FullContactAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullContactAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B236A1F8402CC00A6328A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639B236C1F8402CC00A6328A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		639B236F1F8402CD00A6328A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639B23711F8402CD00A6328A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639B23741F8402CD00A6328A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639B23761F8402CD00A6328A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639B237B1F8402CD00A6328A /* FullContactAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullContactAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B237F1F8402CD00A6328A /* FullContactAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullContactAPITests.swift; sourceTree = "<group>"; };
+		639B23811F8402CD00A6328A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639B23861F8402CD00A6328A /* FullContactAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullContactAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B238A1F8402CD00A6328A /* FullContactAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullContactAPIUITests.swift; sourceTree = "<group>"; };
+		639B238C1F8402CD00A6328A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8717394403DB42F4F075303 /* Pods-FullContactAPIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullContactAPIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullContactAPIUITests/Pods-FullContactAPIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0CC6A4A66391BCD5F9FF149 /* Pods-FullContactAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullContactAPITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullContactAPITests/Pods-FullContactAPITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639B23641F8402CC00A6328A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7940D05DCB72BDBA06061A92 /* Pods_FullContactAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B23781F8402CD00A6328A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7F87A2F77EF385348E972 /* Pods_FullContactAPITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B23831F8402CD00A6328A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CAAE0F34DB83EAE8C6A2FF /* Pods_FullContactAPIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18851A67AF195677023DAA7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1268DCF681B1E0246C90D385 /* Pods-FullContactAPI.debug.xcconfig */,
+				04362F1DE060945ABC4D63A6 /* Pods-FullContactAPI.release.xcconfig */,
+				F0CC6A4A66391BCD5F9FF149 /* Pods-FullContactAPITests.debug.xcconfig */,
+				1199763EBFB2876932493B71 /* Pods-FullContactAPITests.release.xcconfig */,
+				56F0C422BDB0EF13AAF59BC1 /* Pods-FullContactAPIUITests.debug.xcconfig */,
+				D8717394403DB42F4F075303 /* Pods-FullContactAPIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		639B235E1F8402CC00A6328A = {
+			isa = PBXGroup;
+			children = (
+				639B23691F8402CC00A6328A /* FullContactAPI */,
+				639B237E1F8402CD00A6328A /* FullContactAPITests */,
+				639B23891F8402CD00A6328A /* FullContactAPIUITests */,
+				639B23681F8402CC00A6328A /* Products */,
+				18851A67AF195677023DAA7A /* Pods */,
+				9ABB90FDADA62D80CBAC31A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		639B23681F8402CC00A6328A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639B23671F8402CC00A6328A /* FullContactAPI.app */,
+				639B237B1F8402CD00A6328A /* FullContactAPITests.xctest */,
+				639B23861F8402CD00A6328A /* FullContactAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639B23691F8402CC00A6328A /* FullContactAPI */ = {
+			isa = PBXGroup;
+			children = (
+				639B236A1F8402CC00A6328A /* AppDelegate.swift */,
+				639B236C1F8402CC00A6328A /* ViewController.swift */,
+				635CFD551F84176500C39524 /* ResultViewController.swift */,
+				639B236E1F8402CD00A6328A /* Main.storyboard */,
+				639B23711F8402CD00A6328A /* Assets.xcassets */,
+				639B23731F8402CD00A6328A /* LaunchScreen.storyboard */,
+				639B23761F8402CD00A6328A /* Info.plist */,
+			);
+			path = FullContactAPI;
+			sourceTree = "<group>";
+		};
+		639B237E1F8402CD00A6328A /* FullContactAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				639B237F1F8402CD00A6328A /* FullContactAPITests.swift */,
+				639B23811F8402CD00A6328A /* Info.plist */,
+			);
+			path = FullContactAPITests;
+			sourceTree = "<group>";
+		};
+		639B23891F8402CD00A6328A /* FullContactAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				639B238A1F8402CD00A6328A /* FullContactAPIUITests.swift */,
+				639B238C1F8402CD00A6328A /* Info.plist */,
+			);
+			path = FullContactAPIUITests;
+			sourceTree = "<group>";
+		};
+		9ABB90FDADA62D80CBAC31A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07EA11E2E65E223F92F84B45 /* Pods_FullContactAPI.framework */,
+				34713B8918293CC620E441CB /* Pods_FullContactAPITests.framework */,
+				4CA3FD13ECC218CB956B5BF4 /* Pods_FullContactAPIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639B23661F8402CC00A6328A /* FullContactAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639B238F1F8402CD00A6328A /* Build configuration list for PBXNativeTarget "FullContactAPI" */;
+			buildPhases = (
+				5F5AAD8C58CFD8AD7B77E5E5 /* [CP] Check Pods Manifest.lock */,
+				639B23631F8402CC00A6328A /* Sources */,
+				639B23641F8402CC00A6328A /* Frameworks */,
+				639B23651F8402CC00A6328A /* Resources */,
+				BEDE544D80A39CD5E5D1B27B /* [CP] Embed Pods Frameworks */,
+				EEE82723B044B87E09631384 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullContactAPI;
+			productName = FullContactAPI;
+			productReference = 639B23671F8402CC00A6328A /* FullContactAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		639B237A1F8402CD00A6328A /* FullContactAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639B23921F8402CD00A6328A /* Build configuration list for PBXNativeTarget "FullContactAPITests" */;
+			buildPhases = (
+				CCCF0DB0FE3F717F12A2B5A9 /* [CP] Check Pods Manifest.lock */,
+				639B23771F8402CD00A6328A /* Sources */,
+				639B23781F8402CD00A6328A /* Frameworks */,
+				639B23791F8402CD00A6328A /* Resources */,
+				8BBBBFA0F2BFDE096FCDCB93 /* [CP] Embed Pods Frameworks */,
+				62E9F676122B530400E3B656 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639B237D1F8402CD00A6328A /* PBXTargetDependency */,
+			);
+			name = FullContactAPITests;
+			productName = FullContactAPITests;
+			productReference = 639B237B1F8402CD00A6328A /* FullContactAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		639B23851F8402CD00A6328A /* FullContactAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639B23951F8402CD00A6328A /* Build configuration list for PBXNativeTarget "FullContactAPIUITests" */;
+			buildPhases = (
+				9F3DDCF907414F5B24E6CBBB /* [CP] Check Pods Manifest.lock */,
+				639B23821F8402CD00A6328A /* Sources */,
+				639B23831F8402CD00A6328A /* Frameworks */,
+				639B23841F8402CD00A6328A /* Resources */,
+				53CF8369F08A06C10AFB2FBC /* [CP] Embed Pods Frameworks */,
+				9F7F010C67BBC4E60460C407 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				639B23881F8402CD00A6328A /* PBXTargetDependency */,
+			);
+			name = FullContactAPIUITests;
+			productName = FullContactAPIUITests;
+			productReference = 639B23861F8402CD00A6328A /* FullContactAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639B235F1F8402CC00A6328A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Satyam Saluja";
+				TargetAttributes = {
+					639B23661F8402CC00A6328A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					639B237A1F8402CD00A6328A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 639B23661F8402CC00A6328A;
+					};
+					639B23851F8402CD00A6328A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 639B23661F8402CC00A6328A;
+					};
+				};
+			};
+			buildConfigurationList = 639B23621F8402CC00A6328A /* Build configuration list for PBXProject "FullContactAPI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639B235E1F8402CC00A6328A;
+			productRefGroup = 639B23681F8402CC00A6328A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639B23661F8402CC00A6328A /* FullContactAPI */,
+				639B237A1F8402CD00A6328A /* FullContactAPITests */,
+				639B23851F8402CD00A6328A /* FullContactAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639B23651F8402CC00A6328A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B23751F8402CD00A6328A /* LaunchScreen.storyboard in Resources */,
+				639B23721F8402CD00A6328A /* Assets.xcassets in Resources */,
+				639B23701F8402CD00A6328A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B23791F8402CD00A6328A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B23841F8402CD00A6328A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53CF8369F08A06C10AFB2FBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullContactAPIUITests/Pods-FullContactAPIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F5AAD8C58CFD8AD7B77E5E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FullContactAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E9F676122B530400E3B656 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullContactAPITests/Pods-FullContactAPITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBBBFA0F2BFDE096FCDCB93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullContactAPITests/Pods-FullContactAPITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3DDCF907414F5B24E6CBBB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FullContactAPIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7F010C67BBC4E60460C407 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullContactAPIUITests/Pods-FullContactAPIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDE544D80A39CD5E5D1B27B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FullContactAPI/Pods-FullContactAPI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullContactAPI/Pods-FullContactAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCF0DB0FE3F717F12A2B5A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FullContactAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE82723B044B87E09631384 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullContactAPI/Pods-FullContactAPI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639B23631F8402CC00A6328A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B236D1F8402CC00A6328A /* ViewController.swift in Sources */,
+				639B236B1F8402CC00A6328A /* AppDelegate.swift in Sources */,
+				635CFD561F84176500C39524 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B23771F8402CD00A6328A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B23801F8402CD00A6328A /* FullContactAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		639B23821F8402CD00A6328A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				639B238B1F8402CD00A6328A /* FullContactAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		639B237D1F8402CD00A6328A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639B23661F8402CC00A6328A /* FullContactAPI */;
+			targetProxy = 639B237C1F8402CD00A6328A /* PBXContainerItemProxy */;
+		};
+		639B23881F8402CD00A6328A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 639B23661F8402CC00A6328A /* FullContactAPI */;
+			targetProxy = 639B23871F8402CD00A6328A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		639B236E1F8402CD00A6328A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639B236F1F8402CD00A6328A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639B23731F8402CD00A6328A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639B23741F8402CD00A6328A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639B238D1F8402CD00A6328A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639B238E1F8402CD00A6328A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639B23901F8402CD00A6328A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1268DCF681B1E0246C90D385 /* Pods-FullContactAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FullContactAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satyamMac.FullContactAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639B23911F8402CD00A6328A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04362F1DE060945ABC4D63A6 /* Pods-FullContactAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FullContactAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satyamMac.FullContactAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		639B23931F8402CD00A6328A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CC6A4A66391BCD5F9FF149 /* Pods-FullContactAPITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FullContactAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satyamMac.FullContactAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullContactAPI.app/FullContactAPI";
+			};
+			name = Debug;
+		};
+		639B23941F8402CD00A6328A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1199763EBFB2876932493B71 /* Pods-FullContactAPITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FullContactAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satyamMac.FullContactAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullContactAPI.app/FullContactAPI";
+			};
+			name = Release;
+		};
+		639B23961F8402CD00A6328A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F0C422BDB0EF13AAF59BC1 /* Pods-FullContactAPIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FullContactAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satyamMac.FullContactAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FullContactAPI;
+			};
+			name = Debug;
+		};
+		639B23971F8402CD00A6328A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8717394403DB42F4F075303 /* Pods-FullContactAPIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FullContactAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = satyamMac.FullContactAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FullContactAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639B23621F8402CC00A6328A /* Build configuration list for PBXProject "FullContactAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B238D1F8402CD00A6328A /* Debug */,
+				639B238E1F8402CD00A6328A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639B238F1F8402CD00A6328A /* Build configuration list for PBXNativeTarget "FullContactAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B23901F8402CD00A6328A /* Debug */,
+				639B23911F8402CD00A6328A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639B23921F8402CD00A6328A /* Build configuration list for PBXNativeTarget "FullContactAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B23931F8402CD00A6328A /* Debug */,
+				639B23941F8402CD00A6328A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639B23951F8402CD00A6328A /* Build configuration list for PBXNativeTarget "FullContactAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639B23961F8402CD00A6328A /* Debug */,
+				639B23971F8402CD00A6328A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639B235F1F8402CC00A6328A /* Project object */;
+}
